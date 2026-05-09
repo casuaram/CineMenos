@@ -1,5 +1,5 @@
 // ============================================
-// 1. VARIABLES SASS (5 variables)
+// 1. VARIABLES SASS 
 // ============================================
 
 // Colores
@@ -115,7 +115,7 @@ footer {
 }
 
 // ============================================
-// 3. INTERPOLACIÓN (#{$variable})
+// 3. INTERPOLACIÓN 
 // ============================================
 
 // Caso 1: Generar clases de espaciado dinámicas
@@ -147,7 +147,7 @@ $colors: (
 }
 
 // ============================================
-// 4. ESTILOS RESPONSIVOS (manteniendo los originales)
+// 4. ESTILOS RESPONSIVOS
 // ============================================
 
 @media (max-width: 576px) {
