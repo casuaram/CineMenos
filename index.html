@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMenos - Todo sobre Películas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-film me-2"></i>CineMenos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold"> Buscador de películas</h1>
+            <p class="lead">Descubre reseñas, sinopsis y todo sobre las películas</p>
+        </div>
+    </header>
+
+    <section class="filtros-section py-4 bg-light">
+        <div class="container">
+            <div class="row g-3 align-items-end">
+                <div class="col-12 col-sm-6 col-md-5">
+                    <label class="form-label fw-semibold">Buscar película</label>
+                    <input type="text" id="searchInput" class="form-control" placeholder="Ej: Inception, Avatar...">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <label class="form-label fw-semibold">Género</label>
+                    <select id="genreFilter" class="form-select">
+                        <option value="todos">Todos los géneros</option>
+                        <option value="Acción">Acción</option>
+                        <option value="Aventura">Aventura</option>
+                        <option value="Ciencia Ficción">Ciencia Ficción</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Animación">Animación</option>
+                        <option value="Terror">Terror</option>
+                    </select>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <button id="clearFilters" class="btn btn-outline-secondary w-100"><i class="fas fa-eraser me-1"></i>Limpiar filtros</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="peliculas-section py-5">
+        <div class="container">
+            <div class="row g-4" id="peliculasContainer"></div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 CineMenos </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/model.js"></script>
+    <script src="js/controller.js"></script>
+</body>
+</html>
