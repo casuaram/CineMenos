@@ -1,0 +1,167 @@
+.hero-section {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  padding: 80px 0;
+}
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.hero-section .btn-custom {
+  background-color: #0d6efd;
+  color: white;
+}
+.hero-section .btn-custom:hover {
+  background-color: rgb(1.762295082, 87.2336065574, 213.237704918);
+}
+
+.pelicula-card {
+  transition: transform 0.3s ease;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.pelicula-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+.pelicula-card img {
+  height: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.pelicula-card .card-body {
+  padding: 1.25rem;
+}
+.pelicula-card .card-body .card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pelicula-card .card-body .rating {
+  color: #ffc107;
+}
+.pelicula-card .card-body .rating span {
+  color: #6c757d;
+  margin-left: 5px;
+}
+.pelicula-card .card-body .genero-badge {
+  background-color: #e9ecef;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+}
+
+.filtros-section {
+  border-bottom: 1px solid #dee2e6;
+}
+.filtros-section .form-label {
+  font-weight: 600;
+}
+.filtros-section .btn-outline-secondary:hover {
+  background-color: #1a1a2e;
+  color: white;
+}
+
+footer {
+  background-color: #1a1a2e;
+  color: white;
+}
+footer p {
+  margin-bottom: 0;
+}
+footer small {
+  color: #6c757d;
+}
+
+.margin-sm {
+  margin: 10px;
+}
+
+.padding-sm {
+  padding: 15px;
+}
+
+.margin-md {
+  margin: 10px;
+}
+
+.padding-md {
+  padding: 15px;
+}
+
+.margin-lg {
+  margin: 10px;
+}
+
+.padding-lg {
+  padding: 15px;
+}
+
+.bg-primary {
+  background-color: #1a1a2e;
+}
+
+.text-primary {
+  color: #1a1a2e;
+}
+
+.bg-accent {
+  background-color: #0d6efd;
+}
+
+.text-accent {
+  color: #0d6efd;
+}
+
+.bg-light {
+  background-color: white;
+}
+
+.text-light {
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .pelicula-card img {
+    height: 220px;
+  }
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+  .hero-section {
+    padding: 50px 0;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .pelicula-card img {
+    height: 240px;
+  }
+}
+@media (min-width: 768px) {
+  .pelicula-card img {
+    height: 300px;
+  }
+}
+.poster-detalle {
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+
+.genero-detalle {
+  background-color: #0d6efd;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 25px;
+  font-size: 0.85rem;
+  display: inline-block;
+}
+
+.sinopsis {
+  line-height: 1.7;
+  color: #333;
+}/*# sourceMappingURL=styles.css.map */
