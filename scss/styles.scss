@@ -1,5 +1,9 @@
 // ============================================
+<<<<<<< HEAD
 // 1. VARIABLES SASS
+=======
+// 1. VARIABLES SASS 
+>>>>>>> ebbd552f88a14d56e3626d13a2c9f23a90b604dc
 // ============================================
 
 // Colores
@@ -84,7 +88,11 @@ $transition-speed: 0.3s;
     }
 }
 
+<<<<<<< HEAD
 // Filtros de sección con anidación
+=======
+// Filtros section con anidación
+>>>>>>> ebbd552f88a14d56e3626d13a2c9f23a90b604dc
 .filtros-section {
     border-bottom: 1px solid #dee2e6;
     
@@ -115,7 +123,11 @@ footer {
 }
 
 // ============================================
+<<<<<<< HEAD
 // 3. INTERPOLACIÓN
+=======
+// 3. INTERPOLACIÓN 
+>>>>>>> ebbd552f88a14d56e3626d13a2c9f23a90b604dc
 // ============================================
 
 // Caso 1: Generar clases de espaciado dinámicas
@@ -195,4 +207,8 @@ $colors: (
 .sinopsis {
     line-height: 1.7;
     color: #333;
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> ebbd552f88a14d56e3626d13a2c9f23a90b604dc
